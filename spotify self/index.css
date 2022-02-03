@@ -1,0 +1,71 @@
+body {
+  background-color: rgb(241, 221, 221);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1rem;
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+nav ul li {
+  margin: 10px 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.brand img {
+  height: 2rem;
+  padding: 5px 5px;
+}
+
+/* main-comtainer or playlist */
+
+.playlist {
+  min-height: 55vh;
+  display: flex;
+  background-color: black;
+  margin: 15px auto;
+  width: 50%;
+  border-radius: 45px;
+  padding: 20px;
+  color: white;
+  font-family: cursive;
+  font-weight: lighter;
+}
+
+/* footer */
+.player {
+  position: sticky;
+  bottom: 0;
+  height: 90px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.player #slider {
+  width: 80vw;
+}
+.icons {
+  color: white;
+  margin: 10px 10px;
+}
